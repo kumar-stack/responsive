@@ -1,3 +1,6 @@
+body{
+	background-color: azure;
+}
 .box{
 	width: 200px;
 	height: 200px;
@@ -34,8 +37,15 @@
 	}
 }
 
-
+.wrapper{
+	display: flex;
+	justify-content: space-evenly;
+}
 
 .wrapper p:first-line{
-	color: red;
+	color: cadetblue ;
+	background: gainsboro;
+}
+p .ok{
+	border-radius: 4px;
 }
